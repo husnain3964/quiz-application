@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>quiz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
@@ -12,22 +13,24 @@
       <h2 class="question">question</h2>
      <ul>
         <li>
-            <input type="radio" name="ans" id="op1">
+            <input class="inp" type="radio" name="ans" id="op1">
             <label id="lab1" for="op1">option1</label>
         </li>
         <li>
-            <input type="radio" name="ans" id="op2">
+            <input type="radio" name="ans"  class="inp" id="op2">
             <label id="lab2"  for="op2">option2</label>
         </li>
         <li>
-            <input type="radio" name="ans" id="op3">
+            <input class="inp" type="radio" name="ans" id="op3">
             <label id="lab3" for="op3">option3</label>
         </li>
         <li>
-            <input type="radio" name="ans" id="op4">
+            <input class="inp" type="radio" name="ans" id="op4">
             <label id="lab4" for="op4">option4</label>
         </li>
     </ul>
+
+<h1 class="score"></h1>
 
     </div>
     <button class="btn">submit</button>
