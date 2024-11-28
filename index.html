@@ -1,40 +1,38 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>quizz application</title>
-<link rel="stylesheet" href="style.css">
+    <title>quiz</title>
 </head>
 <body>
     
 <div class="main">
-    <div class="quizBox"><h1>select me</h1>
-         <h4 class="question">what is full form of html</h4>
-         <div class="option">
-  <li class="opt">      
-            <label for="op-A">a option-a</label>
-         <input  type="radio" value="a" id="op-A"  >
-          </li>
-  <li class="opt">      
-            <label for="op-B">a option-a</label>
-         <input type="radio" value="b" id="op-B"  >
-          </li>
-  <li class="opt">      
-            <label for="op-c">a option-a</label>
-         <input type="radio" value="c" id="op-c"  >
-          </li>
-  <li class="opt">      
-            <label for="opt-d">a option-a</label>
-         <input type="radio" value="d" id="opt-d"  >
-          </li>
-         </div>
+    <div class="quiz">
+      <h2 class="question">question</h2>
+     <ul>
+        <li>
+            <input type="radio" name="ans" id="op1">
+            <label id="lab1" for="op1">option1</label>
+        </li>
+        <li>
+            <input type="radio" name="ans" id="op2">
+            <label id="lab2"  for="op2">option2</label>
+        </li>
+        <li>
+            <input type="radio" name="ans" id="op3">
+            <label id="lab3" for="op3">option3</label>
+        </li>
+        <li>
+            <input type="radio" name="ans" id="op4">
+            <label id="lab4" for="op4">option4</label>
+        </li>
+    </ul>
+
     </div>
-    <button class="btn">next</button>
+    <button class="btn">submit</button>
 </div>
 
-
-sc
+<script src="app.js"></script>
 </body>
 </html>
